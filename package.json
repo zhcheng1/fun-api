@@ -1,0 +1,30 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portforlio for ZQ and BH",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon --watch src --watch app.js",
+    "css": "sass --watch web/sass:web/css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "connect-mongo": "^2.0.3",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.16.4",
+    "express-generator": "^4.16.0",
+    "express-session": "^1.16.1",
+    "fs": "0.0.1-security",
+    "md5-node": "^1.0.1",
+    "mongoose": "^5.5.7"
+  },
+  "devDependencies": {
+    "mongodb": "^3.2.3",
+    "nodemon": "^1.18.10",
+    "sass": "^1.20.1"
+  }
+}

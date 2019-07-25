@@ -1,0 +1,9 @@
+package-lock.json
+
+## Build generated
+build/
+dist/
+
+## NodeJs import libraries
+node_modules/
+npm-debug.log

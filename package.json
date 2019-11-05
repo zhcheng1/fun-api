@@ -20,7 +20,7 @@
     "express-session": "^1.16.1",
     "fs": "0.0.1-security",
     "md5-node": "^1.0.1",
-    "mongoose": "^5.5.7"
+    "mongoose": "^5.7.5"
   },
   "devDependencies": {
     "mongodb": "^3.2.3",
